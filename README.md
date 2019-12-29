@@ -15,4 +15,13 @@ torch (nn, optim), torchvision (models, datasets, transforms), numpy, collection
 * report.pdf: Final blog post documenting problem statement, data exploration and pre-processing, methodology, results, evaluation and reflections on project
 
 #### Results Summary:
-Convolutional neural network defined and trained from scratch achieved accuracy of 5%. Model using transfer learning to extract the features of a pre-trained convolutional network, ResNet18, and redefining final predicting layer, retrained over 25 epochs achieved an accuracy of 82%.
+Convolutional neural network defined and trained from scratch achieved accuracy of 8%. Model using transfer learning to extract the features of a pre-trained convolutional network, ResNet18, and redefining final predicting layer, retrained over 25 epochs achieved an accuracy of 83%.
+
+![dog_ex_1](./images/dog_ex_1.png)
+
+![dog_ex_2](./images/dog_ex_2.png)
+
+![human_ex_1](./images/human_ex_1.png)
+
+![human_ex_2](./images/human_ex_2.png)
+
