@@ -12,7 +12,7 @@ torch (nn, optim), torchvision (models, datasets, transforms), numpy, collection
 
 * project_research.ipynb: Jupyter notebook based on notebook provided by Udacity to obtain and explore the data, experiment and implement the solution, including define, train, validate and test the model
 
-* report.pdf: Final blog post documenting problem statement, data exploration and pre-processing, methodology, results, evaluation and reflections on project
+* dog_breed_classifier.ipynb: Report documenting problem statement, data exploration and pre-processing, methodology, results, evaluation and reflections on project
 
 #### Results Summary:
 Convolutional neural network defined and trained from scratch achieved accuracy of 8%. Model using transfer learning to extract the features of a pre-trained convolutional network, ResNet18, and redefining final predicting layer, retrained over 25 epochs achieved an accuracy of 83%.
