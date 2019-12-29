@@ -8,11 +8,13 @@ This project is a dog breed classifier which integrates several components to cr
 torch (nn, optim), torchvision (models, datasets, transforms), numpy, collections (OrderedDict), PIL (Image, ImageFile)
 
 #### Files: 
-* project_proposal.pdf: Initial project proposal with initial conceptions of problem definition, dataset exploration, proposed solution and methodology
+* proposal.pdf: Initial project proposal with initial conceptions of problem definition, dataset exploration, proposed solution and methodology
+
+* dog_breed_classifier_blog_post.pdf: Report documenting problem statement, data exploration and pre-processing, methodology, results, evaluation and reflections on project
+
+* dog_breed_classifier.ipynb: Documents project process with code
 
 * project_research.ipynb: Jupyter notebook based on notebook provided by Udacity to obtain and explore the data, experiment and implement the solution, including define, train, validate and test the model
-
-* dog_breed_classifier.ipynb: Report documenting problem statement, data exploration and pre-processing, methodology, results, evaluation and reflections on project
 
 #### Results Summary:
 Convolutional neural network defined and trained from scratch achieved accuracy of 8%. Model using transfer learning to extract the features of a pre-trained convolutional network, ResNet18, and redefining final predicting layer, retrained over 25 epochs achieved an accuracy of 83%.
